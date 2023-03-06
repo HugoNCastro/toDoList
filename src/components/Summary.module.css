@@ -1,0 +1,50 @@
+.containerTasks {
+  display: flex;
+  flex-direction: column;
+}
+
+.tasks {
+  display: flex;
+  margin-top: 4rem;
+  max-width: 730px;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  margin-left: 30%;
+}
+
+.created {
+  display: flex;
+  color: var(--blue);
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.created p{
+  margin-left: 0.5rem;
+  color: var(--gray-100);
+  background-color: var(--gray-500);
+  height: 1.6rem;
+  border-radius: 8px;
+}
+
+.completed {
+  display: flex;
+  color: var(--purple);
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.completed p{
+  margin-left: 0.5rem;
+  color: var(--gray-100);
+  background-color: var(--gray-500);
+  height: 1.6rem;
+  border-radius: 8px;
+}
+
+.divider {
+  border-color: var(--gray-300);
+  margin-top: 0.3rem;
+  width: 40rem;
+  margin-left: 32%;
+}

@@ -1,0 +1,62 @@
+.item {
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  width: 43rem;
+  justify-content: space-between;
+  gap: 3rem;
+  background-color: var(--gray-500);
+  color: var(--gray-200);
+  border-radius: 6px;
+  margin: 0 auto 1rem;
+}
+
+.default {
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 12px;
+  background: transparent;
+  cursor: pointer;
+  border: 1px solid var(--blue);
+  margin-left: 0.5rem;
+}
+
+.concluded {
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 12px;
+  background: var(--blue);
+  cursor: pointer;
+  border: 1px solid var(--blue);
+  margin-left: 0.5rem;
+}
+
+.checked {
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 12px;
+  background: var(--purple);
+  cursor: pointer;
+  border: 1px solid var(--blue);
+  margin-left: 0.5rem;
+}
+
+.trash {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+.trash img {
+  height: 1.2rem;
+}
+
+.contentConcluded {
+  font-size: 1rem;
+  text-decoration: line-through;
+}
+
+.contentDefault {
+  font-size: 1rem;
+}
